@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nuc.admin.dao.IShopsDao">
+
+	<insert id="addShops" parameterType="com.nuc.admin.domain.Shops">
+		<![CDATA[
+			insert into shops
+				values(null,#{shops_no},#{build_no},#{unit_no},#{door_no},#{shops_model},#{shops_area},#{shops_flag})
+		]]>
+	</insert>
+
+	<delete id="delShops" parameterType="int">
+		<![CDATA[
+			delete from shops where shops_id=#{shops_id}
+		]]>
+	</delete>
+
+	<delete id="delShopss" parameterType="int">
+		<![CDATA[
+			delete from shops where shops_id in 
+		]]>
+		<foreach collection="array" item="shops_ids"  open="(" separator="," close=")">
+			#{shops_ids}
+		</foreach>
+	</delete>
+
+	<update id="updateShops" parameterType="com.nuc.admin.domain.Shops">
+		<![CDATA[
+			UPDATE shops
+		]]>
+		<set>
+			<if test="shops_no!=null and shops_no!=''">
+			<![CDATA[
+				shops_no = #{shops_no},
+			]]>
+			</if>
+			<if test="build_no!=null and build_no!=''">
+			<![CDATA[
+				build_no = #{build_no},
+			]]>
+			</if>
+			<if test="unit_no!=null and unit_no!=''">
+			<![CDATA[
+				unit_no = #{unit_no},
+			]]>
+			</if>
+			<if test="door_no!=null and door_no!=''">
+			<![CDATA[
+				door_no = #{door_no},
+			]]>
+			</if>
+			<if test="shops_model!=null and shops_model!=''">
+			<![CDATA[
+				shops_model = #{shops_model},
+			]]>
+			</if>
+			<if test="shops_area!=null and shops_area!=''">
+			<![CDATA[
+				shops_area = #{shops_area},
+			]]>
+			</if>
+			<if test="shops_flag!=null and shops_flag!=''">
+			<![CDATA[
+				shops_flag = #{shops_flag}
+			]]>
+			</if>
+		</set>
+		<![CDATA[
+			where shops_id = #{shops_id}
+		]]>
+	</update>
+
+	<select id="getShopss" parameterType="com.nuc.admin.domain.Shops" resultType="com.nuc.admin.domain.Shops">
+		<![CDATA[
+			SELECT r.*,u.user_id,u.real_name FROM shops r left join user u on r.shops_id=u.shops_id
+		]]>
+		<where>
+			<if test="shops_id!=0">
+			<![CDATA[
+				r.shops_id = #{shops_id}
+			]]>
+			</if>
+			<if test="shops_no!=null and shops_no!=''">
+			<![CDATA[
+				and shops_no = #{shops_no}
+			]]>
+			</if>
+		</where>
+	</select>
+
+	<select id="listShopss" parameterType="com.nuc.admin.domain.Shops" resultType="com.nuc.admin.domain.Shops">
+		<![CDATA[
+			SELECT * FROM (
+			SELECT r.*,u.user_id,u.real_name FROM shops r left join user u on r.shops_id=u.shops_id
+		]]>
+		<where>
+			<if test="shops_id!=0">
+			<![CDATA[
+				r.shops_id = #{shops_id}
+			]]>
+			</if>
+			<if test="shops_no!=null and shops_no!=''">
+			<![CDATA[
+				and shops_no like '%${shops_no}%'
+			]]>
+			</if>
+			<if test="user_id!=0">
+			<![CDATA[
+				and u.user_id = #{user_id}
+			]]>
+			</if>
+			<if test="real_name!=null and real_name!=''">
+			<![CDATA[
+				and u.real_name like '%${real_name}%'
+			]]>
+			</if>
+		</where>
+		<![CDATA[
+			order by shops_id asc) t
+		]]>
+		<if test="start!=-1">
+		<![CDATA[
+			Limit ${start},${limit}
+		]]>
+		</if>
+	</select>
+
+	<select id="listShopssCount" parameterType="com.nuc.admin.domain.Shops" resultType="int">
+		<![CDATA[
+			SELECT count(*) FROM shops r left join user u on r.shops_id=u.shops_id
+		]]>
+		<where>
+			<if test="shops_id!=0">
+			<![CDATA[
+				r.shops_id = #{shops_id}
+			]]>
+			</if>
+			<if test="shops_no!=null and shops_no!=''">
+			<![CDATA[
+				and shops_no like '%${shops_no}%'
+			]]>
+			</if>
+			<if test="user_id!=0">
+			<![CDATA[
+				and u.user_id = #{user_id}
+			]]>
+			</if>
+			<if test="real_name!=null and real_name!=''">
+			<![CDATA[
+				and u.real_name like '%${real_name}%'
+			]]>
+			</if>
+		</where>
+	</select>
+
+</mapper>
