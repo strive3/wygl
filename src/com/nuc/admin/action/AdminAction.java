@@ -183,6 +183,14 @@ public class AdminAction {
         }
         model.addAttribute("rooms", rooms);
 
+        Shops shops = new Shops();
+        shops.setStart(-1);
+        List<Shops> shopss = adminManager.listShopss(shops, null);
+        if (shopss == null) {
+            shopss = new ArrayList<Shops>();
+        }
+        model.addAttribute("shopss", shopss);
+
         return "userEdit";
     }
 
@@ -210,6 +218,14 @@ public class AdminAction {
                     rooms = new ArrayList<Room>();
                 }
                 model.addAttribute("rooms", rooms);
+
+                Shops shops = new Shops();
+                shops.setStart(-1);
+                List<Shops> shopss = adminManager.listShopss(shops, null);
+                if (shopss == null) {
+                    shopss = new ArrayList<Shops>();
+                }
+                model.addAttribute("shopss", shopss);
 
                 return "userEdit";
             }
@@ -248,6 +264,15 @@ public class AdminAction {
                 rooms = new ArrayList<Room>();
             }
             model.addAttribute("rooms", rooms);
+
+            Shops shops = new Shops();
+            shops.setStart(-1);
+            List<Shops> shopss = adminManager.listShopss(shops, null);
+            if (shopss == null) {
+                shopss = new ArrayList<Shops>();
+            }
+            model.addAttribute("shopss", shopss);
+
 
         } catch (Exception e) {
             setErrorTip("查询业主异常", "Admin_listUsers.action", model);
@@ -586,7 +611,7 @@ public class AdminAction {
             return "infoTip";
         }
 
-        return "roomEdit";
+        return "shopsEdit";
     }
 
     /**

@@ -31,7 +31,16 @@ public class User extends BaseDomain {
 	private String room_no; //
 	private String ids;
 	private String random;
-	
+	private String shops_no;
+
+	public String getShops_no() {
+		return shops_no;
+	}
+
+	public void setShops_no(String shops_no) {
+		this.shops_no = shops_no;
+	}
+
 	public String getUser_typeDesc(){
 		switch (user_type) {
 		case 1:

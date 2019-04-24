@@ -82,7 +82,8 @@
 
 	<select id="getUser" parameterType="User" resultType="User">
 		<![CDATA[
-			SELECT u.*,c.room_no FROM user u left join room c on u.room_id=c.room_id left join shops on `user`.shops_id = shops.shops_id
+			SELECT u.*,c.room_no FROM user u left join room c on u.room_id=c.room_id
+			left join shops on u.shops_id = shops.shops_id
 		]]>
 		<where>
 			<if test="user_id!=0">
@@ -111,7 +112,7 @@
 	<select id="listUsers" parameterType="User" resultType="User">
 		<![CDATA[
 			SELECT * FROM (
-			SELECT u.*,c.room_no FROM user u left join room c on u.room_id=c.room_id left join shops on `user`.shops_id = shops.shops_id
+			SELECT u.*,c.room_no,shops.shops_no FROM user u left join room c on u.room_id=c.room_id left join shops on u.shops_id = shops.shops_id
 		]]>
 		<where>
 			<if test="user_id!=0">
@@ -158,7 +159,7 @@
 	<select id="listUsersCount" parameterType="User" resultType="int">
 		<![CDATA[
 			SELECT count(*) FROM user u
-			  left join room c on u.room_id=c.room_id left join shops on `user`.shops_id = shops.shops_id
+			  left join room c on u.room_id=c.room_id left join shops on u.shops_id = shops.shops_id
 		]]>
 		<where>
 			<if test="user_id!=0">

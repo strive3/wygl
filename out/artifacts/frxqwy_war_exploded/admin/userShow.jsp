@@ -131,6 +131,7 @@ function exportUsers()
      <td width="" align="center">联系方式</td>
      <td width="" align="center">身份证号</td>
      <td width="" align="center">所属房屋</td>
+     <td width="" align="center">所属商铺</td>
      <td width="" align="center">合同附件</td>
      <td width="" align="center">操作</td>
    </tr>
@@ -145,6 +146,7 @@ function exportUsers()
      <td width="" align="center">${user.user_mail}&nbsp;</td>
      <td width="" align="center">${user.user_card}&nbsp;</td>
      <td width="" align="center">${user.room_no}&nbsp;</td>
+     <td width="" align="center">${user.shops_no}&nbsp;</td>
      <td width="" align="center">&nbsp;
      	<a href='DownLoad.jsp?fileName=${user.info_file}'>${user.info_file}</a>
      </td>

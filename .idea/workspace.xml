@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf40fbfb-2587-41c7-ad04-f91a729a7471" name="Default Changelist" comment="" />
+    <list default="true" id="cf40fbfb-2587-41c7-ad04-f91a729a7471" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/userShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/userShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/userShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/userShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,27 +40,28 @@
     <session id="715803994">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="46" />
+          <entry key="class" value="7" />
+          <entry key="java" value="47" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="23" />
+          <entry key="jsp" value="25" />
           <entry key="ts" value="1" />
           <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="46" />
-          <entry key="JSP" value="23" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="47" />
+          <entry key="JSP" value="25" />
           <entry key="JavaScript" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="28" />
@@ -60,180 +69,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2110" />
-          <entry key="jsp" value="516" />
-          <entry key="xml" value="669" />
+          <entry key="java" value="2195" />
+          <entry key="jsp" value="545" />
+          <entry key="xml" value="695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2110" />
-          <entry key="JSP" value="516" />
-          <entry key="SQL" value="34" />
-          <entry key="XML" value="635" />
+          <entry key="JAVA" value="2195" />
+          <entry key="JSP" value="545" />
+          <entry key="SQL" value="35" />
+          <entry key="XML" value="660" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="578" column="46" lean-forward="true" selection-start-line="578" selection-start-column="46" selection-end-line="578" selection-end-column="46" />
-              <folding>
-                <element signature="e#58280#58281#0" expanded="true" />
-                <element signature="e#58315#58316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-739">
-              <caret line="160" column="105" selection-start-line="160" selection-start-column="105" selection-end-line="160" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="210" column="41" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/ShopsMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="74" column="74" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin/shopsEdit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="974">
-              <caret line="129" column="35" lean-forward="true" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
-              <folding>
-                <element signature="e#922#1309#0#HTML" />
-                <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#6;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin/shopsShow.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="153" column="73" lean-forward="true" selection-start-line="153" selection-start-column="73" selection-end-line="153" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin/roomEdit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IShopsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Shops.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-              <folding>
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1604#1605#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-                <element signature="e#1677#1678#0" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
-                <element signature="e#1740#1741#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1886#1887#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1966#1967#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2010#2011#0" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
-                <element signature="e#2096#2097#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2157#2158#0" expanded="true" />
-                <element signature="e#2184#2185#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-241">
+              <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
             </state>
           </provider>
         </entry>
@@ -281,6 +138,9 @@
       <replace>mail</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -304,10 +164,12 @@
         <option value="$PROJECT_DIR$/WebContent/admin/roomEdit.jsp" />
         <option value="$PROJECT_DIR$/WebContent/admin/shopsEdit.jsp" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/domain/Shops.java" />
-        <option value="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" />
         <option value="$PROJECT_DIR$/WebContent/admin/shopsShow.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/userShow.jsp" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/domain/User.java" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" />
       </list>
     </option>
   </component>
@@ -336,6 +198,7 @@
     <option name="width" value="1400" />
     <option name="height" value="940" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -440,14 +303,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556015822419" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556073327507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-generator-core-1.3.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -599,12 +462,13 @@
       <option name="presentableId" value="Default" />
       <updated>1555918709520</updated>
       <workItem from="1555918711264" duration="11741000" />
-      <workItem from="1555986803426" duration="19982000" />
+      <workItem from="1555986803426" duration="20916000" />
+      <workItem from="1556071352220" duration="1999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31723000" />
+    <option name="totallyTimeSpent" value="34656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,9 +489,9 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25486252" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25821596" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.23268698" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32918397" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32918397" />
@@ -636,7 +500,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32918397" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32918397" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2351314" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.39196676" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.35546336" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -834,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/userShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="143" column="52" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin/DownLoad.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1010" />
@@ -878,9 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,16 +785,6 @@
             <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5064#5663#0#JSP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/userEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="127" column="70" lean-forward="true" selection-start-line="127" selection-start-column="70" selection-end-line="127" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-224">
           <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,66 +881,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Shops.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2184#2185#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="5544">
+          <caret line="210" column="41" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/ShopsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2072">
+          <caret line="74" column="74" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/shopsShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="153" column="73" selection-start-line="153" selection-start-column="73" selection-end-line="153" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/roomEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IShopsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="336">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1107,65 +919,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/roomEdit.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Shops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="61" lean-forward="true" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/shopsShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="153" column="73" lean-forward="true" selection-start-line="153" selection-start-column="73" selection-end-line="153" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/ShopsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="74" column="74" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="210" column="41" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="578" column="46" lean-forward="true" selection-start-line="578" selection-start-column="46" selection-end-line="578" selection-end-column="46" />
-          <folding>
-            <element signature="e#58280#58281#0" expanded="true" />
-            <element signature="e#58315#58316#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="812">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="364">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#618#619#0" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
             <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/userShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="148" column="49" lean-forward="true" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
+          <folding>
+            <element signature="e#5024#5030#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <caret line="160" column="105" selection-start-line="160" selection-start-column="105" selection-end-line="160" selection-end-column="105" />
+        <state relative-caret-position="-1344">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-jwn.jar!/com/soft/common/domain/BaseDomain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/userEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="141" column="21" lean-forward="true" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#td#3;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
         </state>
       </provider>
     </entry>

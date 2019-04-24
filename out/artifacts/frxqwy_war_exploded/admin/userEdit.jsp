@@ -124,14 +124,23 @@ $(document).ready(function(){
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 所属房屋：</td>
-          <td colspan="3">
+          <td>
              <select id="room_id" name="room_id" style="width:150px;">
 		      	<option value="0">请选择</option>
 		      	<c:forEach items="${rooms}" var="room">
 		      	<option value="${room.room_id}" ${room.room_id==user.room_id?'selected':''}>${room.room_no}</option>
 		      	</c:forEach>
 		      </select>
-          </td> 
+          </td>
+        <td align="right" style="padding-right:5px"><font color="red">*</font> 所属商铺：</td>
+        <td>
+            <select id="shops_id" name="shops_id" style="width:150px;">
+                <option value="0">请选择</option>
+                <c:forEach items="${shopss}" var="shops">
+                    <option value="${shops.shops_id}" ${shops.shops_id==user.shops_id?'selected':''}>${shops.shops_no}</option>
+                </c:forEach>
+            </select>
+        </td>
         </tr>  
          <tr>
           <td align="right" style="padding-right:5px">合同附件：</td>
