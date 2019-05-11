@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${shops!=null && shops.shops_id!=0?'编辑':'添加'}店铺信息</title>
@@ -81,7 +82,7 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 店铺号：</td>
           <td width="65%">
@@ -91,7 +92,7 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 楼栋：</td>
           <td>
-          	<select id="build_no" name="build_no" Style="width:155px;">
+          	<select class="form-control" id="build_no" name="build_no" Style="width:155px;">
 	       		<c:forTokens items="1,2,3,4,5,6,7" delims="," var="build_no">
 	       			<option ${build_no==shops.build_no?'selected':''} value="${build_no}">${build_no}</option>
 	       		</c:forTokens>
@@ -101,7 +102,7 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 单元：</td>
           <td>
-          	<select id="unit_no" name="unit_no" Style="width:155px;">
+          	<select class="form-control" id="unit_no" name="unit_no" Style="width:155px;">
 	       		<c:forTokens items="1,2,3" delims="," var="unit_no">
 	       			<option ${unit_no==shops.unit_no?'selected':''} value="${unit_no}">${unit_no}</option>
 	       		</c:forTokens>
@@ -111,25 +112,25 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 门号：</td>
           <td>
-          	<input type="text" name="door_no" id="door_no" value="${shops.door_no}"/>
+          	<input class="form-control" type="text" name="door_no" id="door_no" value="${shops.door_no}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px">户型：</td>
           <td>
-          	<input type="text" name="shops_model" id="shops_model" value="${shops.shops_model}"/>
+          	<input class="form-control" type="text" name="shops_model" id="shops_model" value="${shops.shops_model}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px">面积：</td>
           <td>
-          	<input type="text" name="shops_area" id="shops_area" value="${shops.shops_area}"/>㎡
+          	<input class="form-control" type="text" name="shops_area" id="shops_area" value="${shops.shops_area}"/>㎡
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 店铺状态：</td>
           <td>
-          	<select id="shops_flag" name="shops_flag" Style="width:155px;">
+          	<select class="form-control" id="shops_flag" name="shops_flag" Style="width:155px;">
 	       		<c:forTokens items="已售,待售" delims="," var="shops_flag">
 	       			<option ${shops_flag==shops.shops_flag?'selected':''} value="${shops_flag}">${shops_flag}</option>
 	       		</c:forTokens>
@@ -145,10 +146,10 @@ $(document).ready(function(){
         <tr class="editbody">
           <td align="center" height="30">
           	<c:if test="${shops!=null && shops.shops_id!=0}">
-          	<input type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
           	</c:if>
           	<c:if test="${shops==null || shops.shops_id==0}">
-          	<input type="button" id="addBtn" Class="btnstyle" value="添 加" />
+          	<input class="btn btn-default" type="button" id="addBtn" Class="btnstyle" value="添 加" />
           	</c:if>
             &nbsp;<label style="color:red">${tip}</label>
           </td>

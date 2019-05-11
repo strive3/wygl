@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>更新物业报修信息</title>
@@ -56,7 +57,7 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 房屋号：</td>
           <td width="65%">
@@ -78,13 +79,13 @@ $(document).ready(function(){
         <tr>
           <td width="35%" align="right" style="padding-right:5px">报修花费：</td>
           <td width="65%">
-          	<input type="text" name="repaircost" id="repaircost" value="${repairlist.repaircost}"/>
+          	<input class="form-control" type="text" name="repaircost" id="repaircost" value="${repairlist.repaircost}"/>
           </td>
         </tr> 
         <tr>
           <td width="35%" align="right" style="padding-right:5px">完成情况：</td>
           <td width="65%">
-          	<input type="text" name="performance" id="performance" value="${repairlist.performance}" style="width:300px"/>
+          	<input class="form-control" type="text" name="performance" id="performance" value="${repairlist.performance}" style="width:300px"/>
           </td>
         </tr> 
      </table>
@@ -95,7 +96,7 @@ $(document).ready(function(){
        <table width="100%" align="center" cellpadding="0" cellspacing="0" class="editbody">
         <tr class="editbody">
           <td align="center" height="30">
-          	<input type="button" id="editBtn" Class="btnstyle" value="提 交" />
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="提 交" />
             &nbsp;<label style="color:red">${tip}</label>
           </td>
         </tr>

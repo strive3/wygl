@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>车位缴费信息</title>
@@ -92,7 +93,7 @@ function ChangePage(pagenum)
 <div class="pageTitle">
 	&nbsp;&nbsp;<img src="images/right1.gif" align="middle" /> &nbsp;<span id="MainTitle" style="color:white">车位缴费管理&gt;&gt;车位缴费查询</span>
 </div>
-<form name="info" id="info" action="Admin_listCarfees.action" method="post">
+<form class="form-inline" name="info" id="info" action="Admin_listCarfees.action" method="post">
 <input type="hidden" name="pageNo" id="pageNo" value="${paperUtil.pageNo}"/>
 <table width="95%" align="center" cellpadding="0" cellspacing="0">
   <tr><td colspan="2" height="10px">&nbsp;</td></tr>
@@ -100,18 +101,18 @@ function ChangePage(pagenum)
     <td width="">车位缴费列表</td>
     <td width="" align="right">
             业主：
-      <input type="text" id="real_name" name="real_name" value="${paramsCarfee.real_name}" class="inputstyle" style="width:100px"/>&nbsp;
+      <input class="form-control" type="text" id="real_name" name="real_name" value="${paramsCarfee.real_name}" class="inputstyle" style="width:100px"/>&nbsp;
             车位号：
-      <input type="text" id="carno" name="carno" value="${paramsCarfee.carno}" class="inputstyle" style="width:100px"/>&nbsp;
-      <input type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
+      <input class="form-control" type="text" id="carno" name="carno" value="${paramsCarfee.carno}" class="inputstyle" style="width:100px"/>&nbsp;
+      <input class="btn btn-default" type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
       <c:if test="${admin.user_type==2}">
-      <input type="button" value="删除" onclick="del();" class="btnstyle"/>
+      <input class="btn btn-default" type="button" value="删除" onclick="del();" class="btnstyle"/>
       </c:if>
     </td>
   </tr>
   <tr><td colspan="2" height="2px"></td></tr>  
 </table>
-<table width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
+<table class="table table-bordered" width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
    <tr class="listtitle">
      <c:if test="${admin.user_type==2}">
      <td width="40" align="center"><input type="checkbox" onclick="CheckAll(this);" style="vertical-align:text-bottom;" title="全选/取消全选"/></td>

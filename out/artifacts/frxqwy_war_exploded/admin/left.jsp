@@ -41,7 +41,7 @@ H1 a {
 	height: 30px;
 	text-decoration: none;
 	moz-outline-style: none;
-	background-image: url(images/menubg.jpg);
+	background-image: url(images/menu_bgs2.jpg);
 	background-repeat: no-repeat;
 	line-height: 30px;
 	text-align: center;
@@ -236,6 +236,18 @@ H1 a {
 					  <li><a href="Admin_addCarShow.action" target="MainFrame">新增车位信息</a></li>
 					</ul>
 				  </div>
+					  <h1 class="type"><a href="javascript:void(0)">租赁房屋管理</a></h1>
+					  <div class="content">
+						  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+							  <tr>
+								  <td><img src="images/menu_topline.gif" width="190" height="5" /></td>
+							  </tr>
+						  </table>
+						  <ul class="MM">
+							  <li><a href="Admin_listRents.action" target="MainFrame">房屋缴费查询</a></li>
+							  <li><a href="Admin_addRentShow.action" target="MainFrame">新增房屋缴费</a></li>
+						  </ul>
+					  </div>
 				  <h1 class="type"><a href="javascript:void(0)">物业缴费管理</a></h1>
 				  <div class="content">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -321,6 +333,28 @@ H1 a {
 					  <li><a href="Admin_listRooms.action" target="MainFrame">房屋信息查询</a></li>
 					</ul>
 				  </div>
+                      <h1 class="type"><a href="javascript:void(0)">商铺信息管理</a></h1>
+                      <div class="content">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                  <td><img src="images/menu_topline.gif" width="190" height="5" /></td>
+                              </tr>
+                          </table>
+                          <ul class="MM">
+                              <li><a href="Admin_listShopss.action" target="MainFrame">商铺信息查询</a></li>
+                          </ul>
+                      </div>
+                      <h1 class="type"><a href="javascript:void(0)">租赁房屋管理</a></h1>
+                      <div class="content">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                  <td><img src="images/menu_topline.gif" width="190" height="5" /></td>
+                              </tr>
+                          </table>
+                          <ul class="MM">
+                              <li><a href="Admin_listRents.action" target="MainFrame">房屋缴费查询</a></li>
+                          </ul>
+                      </div>
 				   <h1 class="type"><a href="javascript:void(0)">物业缴费查询</a></h1>
 				  <div class="content">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">

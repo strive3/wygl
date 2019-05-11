@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>修改个人信息</title>
@@ -56,7 +57,7 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
         <tr>
           <td width="15%" align="right" style="padding-right:5px">用户名：</td>
           <td width="35%">${admin.user_name}</td>
@@ -66,7 +67,7 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 姓名：</td>
           <td>
-             <input type="text" id="real_name" name="real_name" value="${admin.real_name}"/>
+             <input class="form-control" type="text" id="real_name" name="real_name" value="${admin.real_name}"/>
           </td>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 性别：</td>
           <td>
@@ -78,11 +79,11 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px">联系方式：</td>
           <td>
-            <input type="text" id="user_mail" name="user_mail" value="${admin.user_mail}"/>
+            <input class="form-control" type="text" id="user_mail" name="user_mail" value="${admin.user_mail}"/>
           </td> 
           <td align="right" style="padding-right:5px">身份证号：</td>
           <td>
-            <input type="text" id="user_card" name="user_card" value="${admin.user_card}"/>
+            <input class="form-control" type="text" id="user_card" name="user_card" value="${admin.user_card}"/>
           </td> 
         </tr> 
         <tr>
@@ -100,7 +101,7 @@ $(document).ready(function(){
          <tr>
           <td align="right" style="padding-right:5px">联系方式：</td>
           <td colspan="3">
-            <input type="text" id="user_mail" name="user_mail" value="${admin.user_mail}"/>
+            <input class="form-control" type="text" id="user_mail" name="user_mail" value="${admin.user_mail}"/>
           </td> 
         </tr>     
         </c:if>
@@ -112,7 +113,7 @@ $(document).ready(function(){
        <table width="100%" align="center" cellpadding="0" cellspacing="0" class="editbody">
         <tr class="editbody">
           <td align="center" height="30">
-            <input type="button" id="saveBtn" Class="btnstyle" value="编 辑"/> 
+            <input class="btn btn-default" type="button" id="saveBtn" Class="btnstyle" value="编 辑"/> 
           </td>
         </tr>
       </table>

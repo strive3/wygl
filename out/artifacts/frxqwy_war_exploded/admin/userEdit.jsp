@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${user!=null && user.user_id!=0?'编辑':'添加'}业主信息</title>
@@ -83,20 +84,20 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
        <tr>
           <td width="12%" align="right" style="padding-right:5px"><font color="red">*</font> 用户名：</td>
           <td width="38%" >
           	<c:if test="${user!=null && user.user_id!=0}">${user.user_name}</c:if>
-          	<c:if test="${user==null || user.user_id==0}"><input type="text" name="user_name" id="user_name" value="${user.user_name }"/> </c:if>
+          	<c:if test="${user==null || user.user_id==0}"><input class="form-control" type="text" name="user_name" id="user_name" value="${user.user_name }"/> </c:if>
           </td>
           <td width="12%" align="right" style="padding-right:5px"><font color="red">*</font> 密码：</td>
           <td width="38%">
           	<c:if test="${user!=null && user.user_id!=0}">
-          	<input type="password" name="user_pass" id="user_pass" value="" />
+          	<input class="form-control" type="password" name="user_pass" id="user_pass" value="" />
           	</c:if>
           	<c:if test="${user==null || user.user_id==0}">
-          	<input type="password" name="user_pass" id="user_pass" value="111111" />
+          	<input class="form-control" type="password" name="user_pass" id="user_pass" value="111111" />
           	<span id="passTip" style="color:red;">初始密码：111111</span>
           	</c:if>
           </td>
@@ -104,7 +105,7 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 姓名：</td>
           <td>
-            <input type="text"  name="real_name" id="real_name" value="${user.real_name}"/>
+            <input class="form-control" type="text"  name="real_name" id="real_name" value="${user.real_name}"/>
           </td>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 性别：</td>
           <td>
@@ -115,17 +116,17 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px">联系方式：</td>
           <td>
-            <input type="text"  name="user_mail" id="user_mail" value="${user.user_mail}"/>
+            <input class="form-control" type="text"  name="user_mail" id="user_mail" value="${user.user_mail}"/>
           </td>
          <td align="right" style="padding-right:5px">身份证号：</td>
           <td>
-            <input type="text"  name="user_card" id="user_card" value="${user.user_card}"/>
+            <input class="form-control" type="text"  name="user_card" id="user_card" value="${user.user_card}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 所属房屋：</td>
           <td>
-             <select id="room_id" name="room_id" style="width:150px;">
+             <select class="form-control" id="room_id" name="room_id" style="width:150px;">
 		      	<option value="0">请选择</option>
 		      	<c:forEach items="${rooms}" var="room">
 		      	<option value="${room.room_id}" ${room.room_id==user.room_id?'selected':''}>${room.room_no}</option>
@@ -134,7 +135,7 @@ $(document).ready(function(){
           </td>
         <td align="right" style="padding-right:5px"><font color="red">*</font> 所属商铺：</td>
         <td>
-            <select id="shops_id" name="shops_id" style="width:150px;">
+            <select class="form-control" id="shops_id" name="shops_id" style="width:150px;">
                 <option value="0">请选择</option>
                 <c:forEach items="${shopss}" var="shops">
                     <option value="${shops.shops_id}" ${shops.shops_id==user.shops_id?'selected':''}>${shops.shops_no}</option>
@@ -164,10 +165,10 @@ $(document).ready(function(){
         <tr class="editbody">
           <td align="center" height="30">
           	<c:if test="${user!=null && user.user_id!=0}">
-          	<input type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
           	</c:if>
           	<c:if test="${user==null || user.user_id==0}">
-          	<input type="button" id="addBtn" Class="btnstyle" value="添 加" />
+          	<input class="btn btn-default" type="button" id="addBtn" Class="btnstyle" value="添 加" />
           	</c:if>
             &nbsp;<label style="color:red">${tip}</label>
           </td>

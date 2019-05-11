@@ -66,7 +66,7 @@
 			</if>
 			<if test="room_id!=0">
 			<![CDATA[
-				room_id = #{room_id}
+				room_id = #{room_id},
 			]]>
 			</if>
 			<if test="shops_id!=0">

@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${worker!=null && worker.worker_id!=0?'编辑':'添加'}${worker_typeDesc}信息</title>
@@ -75,17 +76,17 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
        <tr>
           <td width="150" align="right" style="padding-right:5px"><font color="red">*</font> 编号：</td>
           <td width="*" >
-          	<input type="text" name="worker_no" id="worker_no" value="${worker.worker_no }"/>
+          	<input class="form-control" type="text" name="worker_no" id="worker_no" value="${worker.worker_no }"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 姓名：</td>
           <td>
-          	<input type="text" name="worker_name" id="worker_name" value="${worker.worker_name }"/>
+          	<input class="form-control" type="text" name="worker_name" id="worker_name" value="${worker.worker_name }"/>
           </td>
          </tr> 
         <tr>
@@ -98,14 +99,14 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px">出生年月：</td>
           <td>
-            <input type="text"  name="worker_birth" id="worker_birth" value="${worker.worker_birth}"
+            <input class="form-control" type="text"  name="worker_birth" id="worker_birth" value="${worker.worker_birth}"
           			 onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd'})"/>
           </td>
         </tr> 
         <tr>
          <td align="right" style="padding-right:5px">工作内容：</td>
           <td>
-            <textarea  name="worker_content" id="worker_content" style="width:300px;height:80px">${worker.worker_content}</textarea>
+            <textarea class="form-control" name="worker_content" id="worker_content" style="width:300px;height:80px">${worker.worker_content}</textarea>
           </td>
         </tr> 
      </table>
@@ -117,10 +118,10 @@ $(document).ready(function(){
         <tr class="editbody">
           <td align="center" height="30">
           	<c:if test="${worker!=null && worker.worker_id!=0}">
-          	<input type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
           	</c:if>
           	<c:if test="${worker==null || worker.worker_id==0}">
-          	<input type="button" id="addBtn" Class="btnstyle" value="添 加" />
+          	<input class="btn btn-default" type="button" id="addBtn" Class="btnstyle" value="添 加" />
           	</c:if>
             &nbsp;<label style="color:red">${tip}</label>
           </td>

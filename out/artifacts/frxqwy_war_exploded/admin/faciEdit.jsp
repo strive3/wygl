@@ -2,7 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${faci!=null && faci.faci_id!=0?'编辑':'添加'}公共设施信息</title>
@@ -70,29 +72,29 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 设施编号：</td>
           <td width="65%">
-          	<input type="text" name="faci_no" id="faci_no" value="${faci.faci_no}"/>
+          	<input class="form-control" type="text" name="faci_no" id="faci_no" value="${faci.faci_no}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 设施名称：</td>
           <td>
-          	<input type="text" name="faci_name" id="faci_name" value="${faci.faci_name}"/>
+          	<input class="form-control" type="text" name="faci_name" id="faci_name" value="${faci.faci_name}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px">价值：</td>
           <td>
-          	<input type="text" name="faci_price" id="faci_price" value="${faci.faci_price}"/>
+          	<input class="form-control" type="text" name="faci_price" id="faci_price" value="${faci.faci_price}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px">位置用途：</td>
           <td>
-          	<input type="text" name="faci_loc" id="faci_loc" value="${faci.faci_loc}" style="width:300px"/>
+          	<input class="form-control" type="text" name="faci_loc" id="faci_loc" value="${faci.faci_loc}"/>
           </td>
         </tr> 
      </table>
@@ -104,10 +106,10 @@ $(document).ready(function(){
         <tr class="editbody">
           <td align="center" height="30">
           	<c:if test="${faci!=null && faci.faci_id!=0}">
-          	<input type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
           	</c:if>
           	<c:if test="${faci==null || faci.faci_id==0}">
-          	<input type="button" id="addBtn" Class="btnstyle" value="添 加" />
+          	<input class="btn btn-default" type="button" id="addBtn" Class="btnstyle" value="添 加" />
           	</c:if>
             &nbsp;<label style="color:red">${tip}</label>
           </td>

@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>业主信息</title>
@@ -97,7 +98,7 @@ function exportUsers()
 <div class="pageTitle">
 	&nbsp;&nbsp;<img src="images/right1.gif" align="middle" /> &nbsp;<span id="MainTitle" style="color:white">业主管理&gt;&gt;业主查询</span>
 </div>
-<form name="info" id="info" action="Admin_listUsers.action" method="post">
+<form class="form-inline" name="info" id="info" action="Admin_listUsers.action" method="post">
 <input type="hidden" name="pageNo" id="pageNo" value="${paperUtil.pageNo}"/>
 <table width="95%" align="center" cellpadding="0" cellspacing="0">
   <tr><td colspan="2" height="10px">&nbsp;</td></tr>
@@ -105,23 +106,23 @@ function exportUsers()
     <td width="">业主列表</td>
     <td width="" align="right">
             用户名：
-      <input type="text" id="user_name" name="user_name" value="${paramsUser.user_name}" class="inputstyle" Style="width:100px"/>&nbsp;
+      <input class="form-control" type="text" id="user_name" name="user_name" value="${paramsUser.user_name}" class="inputstyle" Style="width:100px"/>&nbsp;
             姓名：
-      <input type="text" id="real_name" name="real_name" value="${paramsUser.real_name}" class="inputstyle" Style="width:100px"/>&nbsp;
+      <input class="form-control" type="text" id="real_name" name="real_name" value="${paramsUser.real_name}" class="inputstyle" Style="width:100px"/>&nbsp;
             所属房屋：
-      <select id="room_id" name="room_id" class="selectstyle" style="width:100px;">
+      <select class="form-control" id="room_id" name="room_id" class="selectstyle" style="width:100px;">
       	<option value="0">请选择</option>
       	<c:forEach items="${rooms}" var="room">
       	<option value="${room.room_id}" ${room.room_id==paramsUser.room_id?'selected':''}>${room.room_no}</option>
       	</c:forEach>
       </select>&nbsp;
-      <input type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
-      <input type="button" value="删除" onclick="del();" class="btnstyle"/>&nbsp;
+      <input class="btn btn-default" type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
+      <input class="btn btn-default" type="button" value="删除" onclick="del();" class="btnstyle"/>&nbsp;
     </td>
   </tr>
   <tr><td colspan="2" height="2px"></td></tr>  
 </table>
-<table width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
+<table class="table table-bordered" width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
    <tr class="listtitle">
      <td width="40" align="center"><input type="checkbox" onclick="CheckAll(this);" style="vertical-align:text-bottom;" title="全选/取消全选"/></td>
      <td width="40" align="center">序号</td>

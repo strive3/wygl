@@ -7,12 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf40fbfb-2587-41c7-ad04-f91a729a7471" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebContent/admin/rentEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/admin/rentShow.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nuc/admin/dao/IRentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nuc/admin/domain/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nuc/admin/mapper/RentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/Random.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/Random.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/carEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/carEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/carShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/carShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/carfeeEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/carfeeEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/carfeeShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/carfeeShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/faciEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/faciEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/faciShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/faciShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/images/main_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/images/main_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/images/menubg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/images/menubg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/infoTip.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/infoTip.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/modifyInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/modifyInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/modifyPwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/modifyPwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/peopleEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/peopleEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/peopleShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/peopleShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/repairlistEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/repairlistEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/repairlistShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/repairlistShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/repairlistUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/repairlistUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/roomEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/roomEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/roomShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/roomShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/shopsEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/shopsEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/shopsShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/shopsShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/suggestEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/suggestEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/suggestShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/suggestShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/suggestUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/suggestUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/uploadImg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/uploadImg.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/admin/userShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/userShow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/userShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/userShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/workerEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/workerEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/workerShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/workerShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/wyfeeEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/wyfeeEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/admin/wyfeeShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/admin/wyfeeShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/WEB-INF/classes/com/nuc/admin/action/AdminAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/WEB-INF/classes/com/nuc/admin/action/AdminAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/WEB-INF/classes/com/nuc/admin/manager/AdminManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/WEB-INF/classes/com/nuc/admin/manager/AdminManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/carfeeShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/carfeeShow.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/peopleEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/peopleEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/uploadImg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/uploadImg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/userEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/frxqwy_war_exploded/admin/userEdit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/frxqwy/com/nuc/admin/action/AdminAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/frxqwy/com/nuc/admin/action/AdminAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/frxqwy/com/nuc/admin/manager/AdminManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/frxqwy/com/nuc/admin/manager/AdminManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,57 +89,94 @@
     <session id="715803994">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
-          <entry key="java" value="47" />
+          <entry key="class" value="8" />
+          <entry key="java" value="71" />
+          <entry key="jpg" value="2" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="25" />
+          <entry key="jsp" value="44" />
           <entry key="ts" value="1" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="47" />
-          <entry key="JSP" value="25" />
+          <entry key="CLASS" value="8" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="71" />
+          <entry key="JSP" value="44" />
           <entry key="JavaScript" value="1" />
           <entry key="TypeScript" value="1" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2195" />
-          <entry key="jsp" value="545" />
-          <entry key="xml" value="695" />
+          <entry key="java" value="2646" />
+          <entry key="jsp" value="786" />
+          <entry key="xml" value="818" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2195" />
-          <entry key="JSP" value="545" />
-          <entry key="SQL" value="35" />
-          <entry key="XML" value="660" />
+          <entry key="JAVA" value="2646" />
+          <entry key="JSP" value="786" />
+          <entry key="SQL" value="37" />
+          <entry key="XML" value="781" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
+            <state relative-caret-position="140">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/RoomMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-738">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin/roomEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2601">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin/roomShow.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="154" column="30" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -123,6 +209,14 @@
       <find>people_mail</find>
       <find>房屋</find>
       <find>编辑</find>
+      <find>Wyfee</find>
+      <find>rent_</find>
+      <find>rent_id</find>
+      <find>添加</find>
+      <find>物业</find>
+      <find>wyfee</find>
+      <find>rent_price</find>
+      <find>rent_money</find>
     </findStrings>
     <replaceStrings>
       <replace>商铺</replace>
@@ -136,6 +230,12 @@
       <replace>Person</replace>
       <replace>人事</replace>
       <replace>mail</replace>
+      <replace>Rent</replace>
+      <replace>rent</replace>
+      <replace>rentId</replace>
+      <replace>房屋</replace>
+      <replace>租赁房屋管理</replace>
+      <replace>rentMoney</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -154,12 +254,9 @@
         <option value="$PROJECT_DIR$/WebContent/admin/roomShow.jsp" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/dao/IRoomDao.java" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/dao/IPeopleDao.java" />
-        <option value="$PROJECT_DIR$/WebContent/admin/left.jsp" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/test/PeopleTest.java" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/domain/People.java" />
-        <option value="$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java" />
         <option value="$PROJECT_DIR$/WebContent/admin/peopleShow.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/admin/peopleEdit.jsp" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/mapper/PeopleMapper.xml" />
         <option value="$PROJECT_DIR$/WebContent/admin/roomEdit.jsp" />
         <option value="$PROJECT_DIR$/WebContent/admin/shopsEdit.jsp" />
@@ -167,9 +264,21 @@
         <option value="$PROJECT_DIR$/WebContent/admin/shopsShow.jsp" />
         <option value="$PROJECT_DIR$/WebContent/admin/userShow.jsp" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/peopleEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/com/nuc/admin/dao/IRentDao.java" />
+        <option value="$PROJECT_DIR$/WebContent/rentEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/com/nuc/admin/domain/Rent.java" />
+        <option value="$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java" />
         <option value="$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/admin/rentEdit.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/rentShow.jsp" />
+        <option value="$PROJECT_DIR$/src/com/nuc/admin/mapper/RentMapper.xml" />
+        <option value="$PROJECT_DIR$/WebContent/admin/left.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/carfeeShow.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/uploadImg.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/admin/userEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -204,6 +313,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,66 +335,6 @@
             <path>
               <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
               <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nuc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="prop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,26 +342,19 @@
               <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frxqwy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frxqwy" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556073327507" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-generator-core-1.3.5.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557575706558" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../money_manmage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -319,12 +362,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\JAVAworkspace1\frxqwy\WebContent\admin" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nuc.admin.dao" />
       <recent name="com.nuc.admin.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\JAVAworkspace1\frxqwy\WebContent\admin" />
+      <recent name="C:\Java\JAVAworkspace1\frxqwy\WebContent" />
       <recent name="C:\Java\JAVAworkspace1\frxqwy\src\com\nuc\admin\mapper" />
       <recent name="C:\Java\JAVAworkspace1\frxqwy\src" />
       <recent name="C:\Java\JAVAworkspace1\frxqwy\WebContent\WEB-INF\lib" />
@@ -370,6 +417,8 @@
       </method>
     </configuration>
     <configuration name="tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="frxqwy:war exploded">
           <settings>
@@ -463,12 +512,24 @@
       <updated>1555918709520</updated>
       <workItem from="1555918711264" duration="11741000" />
       <workItem from="1555986803426" duration="20916000" />
-      <workItem from="1556071352220" duration="1999000" />
+      <workItem from="1556071352220" duration="4788000" />
+      <workItem from="1556162647571" duration="3558000" />
+      <workItem from="1556509913265" duration="6756000" />
+      <workItem from="1556678309392" duration="948000" />
+      <workItem from="1556679985888" duration="415000" />
+      <workItem from="1556808476980" duration="424000" />
+      <workItem from="1556809089582" duration="21000" />
+      <workItem from="1556947914332" duration="1733000" />
+      <workItem from="1556962149652" duration="2469000" />
+      <workItem from="1556974981651" duration="1410000" />
+      <workItem from="1557031797546" duration="1160000" />
+      <workItem from="1557492894800" duration="1539000" />
+      <workItem from="1557568549552" duration="4797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34656000" />
+    <option name="totallyTimeSpent" value="62675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,25 +550,25 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25821596" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26626426" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.23268698" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.37534627" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32918397" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32825485" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32918397" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32918397" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32918397" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.39196676" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.24792244" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.35546336" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32918397" />
       <window_info anchor="right" id="JSF" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5011442" side_tool="true" weight="0.3293092" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5011442" side_tool="true" visible="true" weight="0.11804158" />
       <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.49885583" weight="0.3293092" />
       <window_info anchor="right" id="Database" order="5" weight="0.3293092" />
@@ -518,42 +579,6 @@
       <window_info anchor="right" id="Ant Build" order="10" weight="0.24949698" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25486252" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32918397" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32918397" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32918397" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32918397" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.28492394" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.35546336" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32918397" />
-      <window_info anchor="right" id="JSF" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Structure" order="2" side_tool="true" visible="true" weight="0.09590878" />
-      <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" weight="0.32997987" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3293092" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3293092" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="10" weight="0.24949698" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -566,128 +591,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Faci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/api/MyBatisGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-generator-core-1.3.5.jar!/org/mybatis/generator/config/xml/ConfigurationParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding>
-            <element signature="n#value#0;n#property#0;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/util/GeneratorSqlmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="5081" column="13" selection-start-line="5081" selection-start-column="13" selection-end-line="5081" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="129" lean-forward="true" selection-start-line="39" selection-start-column="129" selection-end-line="39" selection-end-column="129" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#td#3;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/ShopsAction.java" />
-    <entry file="file://$PROJECT_DIR$/build/classes/com/nuc/admin/mapper/RoomMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/WorkerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IWorkerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -738,54 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="197" column="55" lean-forward="true" selection-start-line="197" selection-start-column="55" selection-end-line="197" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/People.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-          <folding>
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-            <element signature="e#4757#4758#0" expanded="true" />
-            <element signature="e#4786#4787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/peopleEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2772">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="e#1673#1679#0#HTML" expanded="true" />
-            <element signature="e#1679#1685#0#HTML" expanded="true" />
-            <element signature="e#1732#1738#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1783#1787#0#HTML" expanded="true" />
-            <element signature="e#1787#1791#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2372#2378#1#HTML" expanded="true" />
-            <element signature="e#2504#2510#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4097#4103#0#HTML" expanded="true" />
-            <element signature="e#4103#4109#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5064#5663#0#JSP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,44 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="64" column="45" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="e#2172#2178#0#HTML" expanded="true" />
-            <element signature="e#2178#2184#0#HTML" expanded="true" />
-            <element signature="e#2231#2237#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2282#2286#0#HTML" expanded="true" />
-            <element signature="e#2286#2290#0#HTML" expanded="true" />
-            <element signature="e#2566#2572#1#HTML" expanded="true" />
-            <element signature="n#Style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2803#2809#0#HTML" expanded="true" />
-            <element signature="n#Style#0;n#input#1;n#td#1;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2957#2963#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3280#3286#0#HTML" expanded="true" />
-            <element signature="e#3362#3368#0#HTML" expanded="true" />
-            <element signature="e#3442#3448#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4805#4811#0#HTML" expanded="true" />
-            <element signature="e#4865#4871#0#HTML" expanded="true" />
-            <element signature="e#4980#4986#0#HTML" expanded="true" />
-            <element signature="e#5194#5200#1#HTML" expanded="true" />
-            <element signature="e#5438#5442#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/RoomMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -848,29 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/PeopleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/roomShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin/shopsEdit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="974">
           <caret line="129" column="35" lean-forward="true" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
-          <folding>
-            <element signature="e#922#1309#0#HTML" />
-            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#6;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,20 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5544">
-          <caret line="210" column="41" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/ShopsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2072">
-          <caret line="74" column="74" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin/shopsShow.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
@@ -902,20 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/roomEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IShopsDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,65 +708,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/userShow.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="148" column="49" lean-forward="true" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
-          <folding>
-            <element signature="e#5024#5030#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1344">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-jwn.jar!/com/soft/common/domain/BaseDomain.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin/userEdit.jsp">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/peopleEdit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="141" column="21" lean-forward="true" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#td#3;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1232">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/ICarfeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Carfee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/manager/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Wyfee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/ShopsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1483">
+          <caret line="74" column="74" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/PeopleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2119">
+          <caret line="80" column="15" lean-forward="true" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IWyfeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/wyfeeEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="103" column="35" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/WyfeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="74" column="16" lean-forward="true" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/Rent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2077">
+          <caret line="111" column="6" lean-forward="true" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/images/add.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/images/BarTitle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/manager/AdminManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20692">
+          <caret line="773" column="21" selection-start-line="773" selection-start-column="21" selection-end-line="773" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IRentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/action/AdminAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="612" lean-forward="true" selection-start-line="612" selection-end-line="612" />
+        <state relative-caret-position="55384">
+          <caret line="2008" column="30" selection-start-line="2008" selection-start-column="30" selection-end-line="2008" selection-end-column="30" />
+          <folding>
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="356" column="28" selection-start-line="356" selection-start-column="28" selection-end-line="356" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/dao/IWorkerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/rentEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3416">
+          <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/userEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="155" column="48" lean-forward="true" selection-start-line="155" selection-start-column="48" selection-end-line="155" selection-end-column="48" />
+          <folding>
+            <element signature="e#1808#1814#0#HTML" expanded="true" />
+            <element signature="e#1814#1820#0#HTML" expanded="true" />
+            <element signature="e#1867#1873#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1918#1922#0#HTML" expanded="true" />
+            <element signature="e#1922#1926#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2517#2523#1#HTML" expanded="true" />
+            <element signature="e#2656#2662#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4337#4343#0#HTML" expanded="true" />
+            <element signature="e#4343#4349#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#2;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#3;n#tr#3;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#td#1;n#tr#4;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#td#0;n#tr#2;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/uploadImg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="31" column="36" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/userShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/rentShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/carfeeShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/RentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nuc/admin/mapper/RoomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/roomEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2601">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin/roomShow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="154" column="30" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="30" />
         </state>
       </provider>
     </entry>

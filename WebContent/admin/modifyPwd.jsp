@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>修改密码</title>
@@ -53,11 +54,11 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 输入新密码：</td>
           <td>
-            <input type="password" id="user_pass" name="user_pass"  />
+            <input class="form-control" type="password" id="user_pass" name="user_pass"  />
           </td>
           <td align="right" style="padding-right:5px"></td>
           <td>
@@ -67,7 +68,7 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 确认新密码：</td>
           <td>
-            <input type="password" id="user_rpass" name="user_rpass"  />
+            <input class="form-control" type="password" id="user_rpass" name="user_rpass"  />
           </td>
           <td align="right" style="padding-right:5px"></td>
           <td>
@@ -83,7 +84,7 @@ $(document).ready(function(){
        <table width="100%" align="center" cellpadding="0" cellspacing="0" class="editbody">
         <tr class="editbody">
           <td align="center" height="30">
-            <input type="button" id="saveBtn" Class="btnstyle" value="修 改"/> 
+            <input class="btn btn-default" type="button" id="saveBtn" Class="btnstyle" value="修 改"/> 
           </td>
         </tr>
       </table>

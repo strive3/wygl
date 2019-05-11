@@ -27,9 +27,9 @@ $(document).ready(function(){
 <div class="top">
 	<div class="top1">
     	<div class="logo">
-			<IMG src="images/logo3.png" width="480"/>
+			<IMG src="images/logo312.png" width="480"/>		
 		</div>
-        <div class="top_info"><img src="images/zxtb.gif" style="border:0px;vertical-align:middle"/>&nbsp;&nbsp;<a id="logOut" href="#">退出系统</a></div>
+        <div class="top_info"><img src="images/zxtb.gif" style="border:0px;vertical-align:middle"/>&nbsp;&nbsp;<a id="logOut" href="#">退出</a></div>
     </div>
     <div class="top2">
     	<div class="shijian" id="timeDiv"></div>

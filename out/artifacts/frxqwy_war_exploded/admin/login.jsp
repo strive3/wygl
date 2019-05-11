@@ -1,9 +1,11 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
-<title>小区物业管理系统登录</title>
+<title>智慧社区管理系统登录</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
@@ -26,17 +28,24 @@
 </head>
 <BODY>
 <FORM id="info" name="info"  method="post" action="LoginInSystem.action">
-<div style="width:750px;height:460px;background-image:url('images/loginbg.png');margin:0 auto;margin-top:100px;overflow:hidden">
-	<div style="width:278px;height:125px;margin-top:250px;margin-left:460px;overflow:hidden">
-		<div style="float:left;width:156px;height:90px;margin-top:25px;margin-left:30px;line-height:25px;overflow:hidden">
-			用户名：<input type="text" id="params.username" name="user_name" value="${params.user_name}" style="width:100px" />
-			<br/>密　码：<input type="password" id="params.password" name="user_pass" value="" style="width:100px" />
-			<br/>类　型：<select name="user_type" style="width:105px">
+<div style="width:100%;height:660px;background-image:url('images/xin3.jpg');margin:0 auto;margin-top:0px;overflow:hidden">
+	<div style="width:500px;height:200px;margin-top:250px;margin-left:460px;overflow:hidden;">
+		<div class="form-group">
+			<label for="exampleInputEmail1">用户名：</label><input class="form-control" placeholder="Email" type="user" id="params.username" name="user_name" value="${params.user_name}" style="width:200px" />
+		</div>
+		<div class="form-group">
+			<label for="exampleInputEmail1">密　码：</label><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" id="params.password" name="user_pass" value="" style="width:200px" />
+		</div>
+		<div class="form-group">
+			<label for="exampleInput">类　型：</label>
+			</br>
+			<select class="form-control" name="user_type" style="width:200px">
 						<option value="1">业主</option>
 						<option value="2">管理员</option>
-					</select>
+			</select>
 		</div>
-		<div style="float:left;width:88px;height:90px;margin-top:25px;overflow:hidden">
+		</div>
+		<div style="margin-left:460px;margin-top: 10px">
 			<img id="loginInBtn"  style="border:0px;cursor:pointer;vertical-align:text-bottom;" src="images/loginbtn.jpg" />
 		</div>
 	</div>

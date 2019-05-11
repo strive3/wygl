@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${worker_typeDesc}信息</title>
@@ -101,7 +102,7 @@ function add(worker_type)
 <div class="pageTitle">
 	&nbsp;&nbsp;<img src="images/right1.gif" align="middle" /> &nbsp;<span id="MainTitle" style="color:white">${worker_typeDesc}管理&gt;&gt;${worker_typeDesc}查询</span>
 </div>
-<form name="info" id="info" action="Admin_listWorkers.action" method="post">
+<form class="form-inline" name="info" id="info" action="Admin_listWorkers.action" method="post">
 <input type="hidden" name="pageNo" id="pageNo" value="${paperUtil.pageNo}"/>
 <input type="hidden" name="worker_type" id="worker_type" value="${worker_type}"/>
 <table width="95%" align="center" cellpadding="0" cellspacing="0">
@@ -110,17 +111,17 @@ function add(worker_type)
     <td width="">${worker_typeDesc}列表</td>
     <td width="" align="right">
             编号：
-      <input type="text" id="worker_no" name="worker_no" value="${paramsWorker.worker_no}" class="inputstyle" Style="width:100px"/>&nbsp;
+      <input class="form-control" type="text" id="worker_no" name="worker_no" value="${paramsWorker.worker_no}" class="inputstyle" Style="width:100px"/>&nbsp;
             姓名：
-      <input type="text" id="worker_name" name="worker_name" value="${paramsWorker.worker_name}" class="inputstyle" Style="width:100px"/>&nbsp;
-      <input type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
-      <input type="button" value="新增" onclick="add('${worker_type}');" class="btnstyle"/>&nbsp;
-      <input type="button" value="删除" onclick="del();" class="btnstyle"/>&nbsp;
+      <input class="form-control" type="text" id="worker_name" name="worker_name" value="${paramsWorker.worker_name}" class="inputstyle" Style="width:100px"/>&nbsp;
+      <input class="btn btn-default" type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
+      <input class="btn btn-default" type="button" value="新增" onclick="add('${worker_type}');" class="btnstyle"/>&nbsp;
+      <input class="btn btn-default" type="button" value="删除" onclick="del();" class="btnstyle"/>&nbsp;
     </td>
   </tr>
   <tr><td colspan="2" height="2px"></td></tr>  
 </table>
-<table width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
+<table class="table table-bordered" width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
    <tr class="listtitle">
      <td width="40" align="center"><input type="checkbox" onclick="CheckAll(this);" style="vertical-align:text-bottom;" title="全选/取消全选"/></td>
      <td width="40" align="center">序号</td>

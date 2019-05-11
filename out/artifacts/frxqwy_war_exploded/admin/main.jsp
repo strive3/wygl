@@ -14,7 +14,7 @@ body{
 	margin:0px; 
 	padding:0px; 
 	font-size:12px; 
-	background:url(images/main_bg.jpg) no-repeat right bottom #fff;
+	background:url(images/main_bg3.jpg) left bottom #fff;
 }
 table tr td{ 
 	font-size:12px; 

@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${wyfee!=null && wyfee.wyfee_id!=0?'编辑':'添加'}物业缴费信息</title>
@@ -94,11 +95,11 @@ $(document).ready(function(){
    </tr>
    <tr>
      <td >
-     <table width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
+     <table class="table table-bordered" width="100%" align="center" cellpadding="1" cellspacing="1" class="editbody">
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 房屋号编号：</td>
           <td width="65%">
-          	<select id="room_id" name="room_id" Style="width:200px;">
+          	<select class="form-control" id="room_id" name="room_id" Style="width:200px;">
           		<option value="0">请选择</option>
           		<c:forEach items="${rooms}" var="room">
           			<option ${wyfee.room_id==room.room_id?'selected':''} value="${room.room_id}">${room.room_no}（业主：${room.real_name}）</option>
@@ -109,27 +110,27 @@ $(document).ready(function(){
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 物业费标准：</td>
           <td width="65%">
-          	<input type="text" name="wyfee_price" id="wyfee_price" value="${wyfee.wyfee_price}"/> 元/㎡
+          	<input class="form-control" type="text" name="wyfee_price" id="wyfee_price" value="${wyfee.wyfee_price}"/> 元/㎡
           </td>
         </tr> 
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 缴费开始月份：</td>
           <td width="65%">
-          	<input type="text" name="wyfee_start" id="wyfee_start" value="${wyfee.wyfee_start}"
+          	<input class="form-control" type="text" name="wyfee_start" id="wyfee_start" value="${wyfee.wyfee_start}"
           			 onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM'})"/>
           </td>
         </tr> 
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 缴费结束月份：</td>
           <td width="65%">
-          	<input type="text" name="wyfee_end" id="wyfee_end" value="${wyfee.wyfee_end}"
+          	<input class="form-control" type="text" name="wyfee_end" id="wyfee_end" value="${wyfee.wyfee_end}"
           			 onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM'})"/>
           </td>
         </tr> 
         <tr>
           <td width="35%" align="right" style="padding-right:5px"><font color="red">*</font> 总金额：</td>
           <td width="65%">
-          	<input type="text" name="wyfee_money" id="wyfee_money" value="${wyfee.wyfee_money}"/>
+          	<input class="form-control" type="text" name="wyfee_money" id="wyfee_money" value="${wyfee.wyfee_money}"/>
           </td>
         </tr> 
      </table>
@@ -141,10 +142,10 @@ $(document).ready(function(){
         <tr class="editbody">
           <td align="center" height="30">
           	<c:if test="${wyfee!=null && wyfee.wyfee_id!=0}">
-          	<input type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
           	</c:if>
           	<c:if test="${wyfee==null || wyfee.wyfee_id==0}">
-          	<input type="button" id="addBtn" Class="btnstyle" value="添 加" />
+          	<input class="btn btn-default" type="button" id="addBtn" Class="btnstyle" value="添 加" />
           	</c:if>
             &nbsp;<label style="color:red">${tip}</label>
           </td>

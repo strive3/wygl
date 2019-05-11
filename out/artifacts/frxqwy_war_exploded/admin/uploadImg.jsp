@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
@@ -24,11 +25,11 @@
 </script>
 </head>
 <body bgcolor="#DFEDFF">
-<form name="upImgFrm" method="post" action="UploadImg.action" style="padding:0px;margin:0px;" enctype="multipart/form-data">
-<input type="text" name="upfile" id="upfile" style="border:1px dotted #ccc;width:150px">  
+<form class="form-inline" name="upImgFrm" method="post" action="UploadImg.action" style="padding:0px;margin:0px;" enctype="multipart/form-data">
+<input class="form-group" type="text" name="upfile" id="upfile" style="border:1px dotted #ccc;width:150px">  
 <input type="file" id="fileurl" name="upload" style="filter:alpha(opacity=10);position:absolute;opacity:0;width:45px;height:21px" onchange="file_change(this.value)"/>
-<input type="button" value="浏览" onclick="fileurl.click()" class="btnstyle" style="width:60px">&nbsp;&nbsp; &nbsp;  
-<input type="button" class="btnstyle" value="上传" onclick="uploadImg();"/>&nbsp;
+<input class="btn btn-default" type="button" value="浏览" onclick="fileurl.click()" class="btnstyle" style="width:60px">&nbsp;&nbsp; &nbsp;  
+<input class="btn btn-default" type="button" class="btnstyle" value="上传" onclick="uploadImg();"/>&nbsp;
 <br/>
 <span id="upTip" style="color:red"></span>
 </form>

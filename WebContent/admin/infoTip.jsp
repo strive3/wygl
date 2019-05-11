@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>提示信息</title>
@@ -72,9 +73,9 @@ BODY {
           </table>
         </TD></TR>
         <TR class="editbody"><TD height=30 align="center">
-          <c:if test="${url1!=null && url1!=''}"><input type='button' value='${value1}' name='BtnRet1' class='btnstyle' onclick="window.location='${url1}'" /></c:if>
-	      <c:if test="${url2!=null && url2!=''}"><input type='button' value='${value2}' name='BtnRet2' class='btnstyle' onclick="window.location='${url2}" /></c:if>
-	      <c:if test="${url3!=null && url3!=''}"><input type='button' value='${value3}' name='BtnRet3' class='btnstyle' onclick="window.location='${url3}'" /></c:if>
+          <c:if test="${url1!=null && url1!=''}"><input class="btn btn-default" type='button' value='${value1}' name='BtnRet1' class='btnstyle' onclick="window.location='${url1}'" /></c:if>
+	      <c:if test="${url2!=null && url2!=''}"><input class="btn btn-default" type='button' value='${value2}' name='BtnRet2' class='btnstyle' onclick="window.location='${url2}" /></c:if>
+	      <c:if test="${url3!=null && url3!=''}"><input class="btn btn-default" type='button' value='${value3}' name='BtnRet3' class='btnstyle' onclick="window.location='${url3}'" /></c:if>
         </TD></TR>
       </TABLE> 
   </body>

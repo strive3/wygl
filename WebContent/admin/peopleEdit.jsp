@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html> 
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${people!=null && people.id!=0?'编辑':'添加'}人事信息</title>
@@ -36,6 +37,18 @@ $(document).ready(function(){
 			alert('员工状态不能为空');
 			return;
 		}
+		if (!(/^1[34578]\d{9}$/.test($("#phone").val()))) {
+            alert("手机号码有误，请重填");
+            return;
+        }
+        if (!(/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test($("#idcard").val()))) {
+            alert("身份证输入不合法");
+            return;
+        }
+        if (!(/^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/.test($("#mail").val()))){
+            alert("邮箱格式不正确");
+            return;
+        }
 		$("#id").val(0);
 		$("#info").attr('action','Admin_addPeople.action').submit();
 		 
@@ -87,15 +100,15 @@ $(document).ready(function(){
           <td width="12%" align="right" style="padding-right:5px"><font color="red">*</font> 用户名：</td>
           <td width="38%" >
           	<c:if test="${people!=null && people.id!=0}">${people.name}</c:if>
-          	<c:if test="${people==null || people.id==0}"><input type="text" name="name" id="name" value="${people.name }"/> </c:if>
+          	<c:if test="${people==null || people.id==0}"><input class="form-control" type="text" name="name" id="name" value="${people.name }"/> </c:if>
           </td>
           <td width="12%" align="right" style="padding-right:5px"><font color="red">*</font> 密码：</td>
           <td width="38%">
           	<c:if test="${people!=null && people.id!=0}">
-          	<input type="password" name="password" id="password" value="" />
+          	<input class="form-control" type="password" name="password" id="password" value="" />
           	</c:if>
           	<c:if test="${people==null || people.id==0}">
-          	<input type="password" name="password" id="password" value="111111" />
+          	<input class="form-control" type="password" name="password" id="password" value="111111" />
           	<span id="passTip" style="color:red;">初始密码：111111</span>
           	</c:if>
           </td>
@@ -103,7 +116,7 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 姓名：</td>
           <td>
-            <input type="text"  name="realName" id="realName" value="${people.realName}"/>
+            <input class="form-control" type="text"  name="realName" id="realName" value="${people.realName}"/>
           </td>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 性别：</td>
           <td>
@@ -114,17 +127,17 @@ $(document).ready(function(){
         <tr>
           <td align="right" style="padding-right:5px">联系方式：</td>
           <td>
-            <input type="text"  name="phone" id="phone" value="${people.phone}"/>
+            <input class="form-control" type="text"  name="phone" id="phone" value="${people.phone}"/>
           </td>
          <td align="right" style="padding-right:5px">身份证号：</td>
           <td>
-            <input type="text"  name="idcard" id="idcard" value="${people.idcard}"/>
+            <input class="form-control" type="text"  name="idcard" id="idcard" value="${people.idcard}"/>
           </td>
         </tr> 
         <tr>
           <td align="right" style="padding-right:5px"><font color="red">*</font> 员工状态：</td>
           <td>
-             <select id="status" name="status" style="width:150px;">
+             <select class="form-control" id="status" name="status" style="width:150px;">
                  <option value="">请选择</option>
                  <option value="0" ${people.status==0?'selected':''}>实习</option>
                  <option value="1" ${people.status==1?'selected':''}>正式员工</option>
@@ -133,7 +146,7 @@ $(document).ready(function(){
           </td>
             <td align="right" style="padding-right:5px">邮箱：</td>
             <td>
-                <input type="text"  name="mail" id="mail" value="${people.mail}"/>
+                <input class="form-control" type="text"  name="mail" id="mail" value="${people.mail}"/>
             </td>
         </tr>  
          <%--<tr>
@@ -158,10 +171,10 @@ $(document).ready(function(){
         <tr class="editbody">
           <td align="center" height="30">
           	<c:if test="${people!=null && people.id!=0}">
-          	<input type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
+          	<input class="btn btn-default" type="button" id="editBtn" Class="btnstyle" value="编 辑"/> 
           	</c:if>
           	<c:if test="${people==null || people.id==0}">
-          	<input type="button" id="addBtn" Class="btnstyle" value="添 加" />
+          	<input class="btn btn-default" type="button" id="addBtn" Class="btnstyle" value="添 加" />
           	</c:if>
             &nbsp;<label style="color:red">${tip}</label>
           </td>

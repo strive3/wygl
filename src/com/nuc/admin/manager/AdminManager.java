@@ -36,6 +36,8 @@ public class AdminManager {
 	IShopsDao shopsDao;
 	@Autowired
 	IPeopleDao peopleDao;
+	@Autowired
+	IRentDao rentDao;
 
 	/**
 	 * @Title: listUsers
@@ -730,9 +732,59 @@ public class AdminManager {
 	public void delPeoples(String ids){
 		peopleDao.delPeoples(ids.split(","));
 	}
+//====================================房屋租赁========================================
+
+	public List<Rent> listRents(Rent rent, int[] sum) {
+		if (sum != null) {
+			sum[0] = rentDao.listRentsCount(rent);
+		}
+		List<Rent> rents = rentDao.listRents(rent);
+
+		return rents;
+	}
 
 
+	/**
+	 * @Title: queryRent
+	 * @Description: 房屋缴费信息查询
+	 */
+	public Rent queryRent(Rent rent) {
 
+		Rent _rent = rentDao.getRent(rent);
+
+		return _rent;
+	}
+
+	/**
+	 * @Title: addRent
+	 * @Description: 添加房屋缴费信息
+	 * @return void
+	 */
+	public void addRent(Rent rent) {
+		rentDao.insert(rent);
+	}
+
+	/**
+	 * @Title: updateRent
+	 * @Description: 更新房屋缴费信息
+	 * @return void
+	 */
+	public void updateRent(Rent rent) {
+
+		rentDao.updateRent(rent);
+
+	}
+
+	/**
+	 * @Title: delRents
+	 * @Description: 删除房屋缴费信息
+	 * @return void
+	 */
+	public void delRents(String ids) {
+
+		rentDao.delRents(ids.split(","));
+
+	}
 	
 	public ICarDao getCarDao() {
 		return carDao;

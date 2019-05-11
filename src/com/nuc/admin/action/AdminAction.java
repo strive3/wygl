@@ -1879,4 +1879,161 @@ public class AdminAction {
 
         return "infoTip";
     }
+    //========================================租赁房屋管理================================
+    /**
+     * @return String
+     * @Title: listRents
+     * @Description: 查询房屋缴费信息
+     */
+    @RequestMapping(value = "admin/Admin_listRents.action")
+    public String listRents(Rent paramsRent, PaperUtil paperUtil,
+                             ModelMap model, HttpServletRequest request, HttpServletResponse response, HttpSession httpSession) {
+        try {
+            if (paramsRent == null) {
+                paramsRent = new Rent();
+            }
+            //设置分页信息
+            paperUtil.setPagination(paramsRent);
+            //总的条数
+            int[] sum = {0};
+            //用户身份限制
+            User admin = (User) httpSession.getAttribute("admin");
+            if (admin.getUser_type() == 1) {
+                paramsRent.setUser_id(admin.getUser_id());
+            }
+            //查询房屋缴费信息列表
+            List<Rent> rents = adminManager.listRents(paramsRent, sum);
+            model.addAttribute("rents", rents);
+            paperUtil.setTotalCount(sum[0]);
+            model.addAttribute("paramsRent", paramsRent);
+
+            //查询房屋字典
+            Room room = new Room();
+            room.setStart(-1);
+            List<Room> rooms = adminManager.listRooms(room, null);
+            if (rooms == null) {
+                rooms = new ArrayList<Room>();
+            }
+            model.addAttribute("rooms", rooms);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            setErrorTip("查询房屋缴费信息异常", "main.jsp", model);
+            return "infoTip";
+        }
+
+        return "rentShow";
+    }
+
+    /**
+     * @return String
+     * @Title: addRentShow
+     * @Description: 显示添加房屋缴费信息页面
+     */
+    @RequestMapping(value = "admin/Admin_addRentShow.action")
+    public String addRentShow(ModelMap model) {
+        //查询房屋字典
+        Room room = new Room();
+        room.setStart(-1);
+        List<Room> rooms = adminManager.listRooms(room, null);
+        if (rooms == null) {
+            rooms = new ArrayList<Room>();
+        }
+        model.addAttribute("rooms", rooms);
+
+        return "rentEdit";
+    }
+
+    /**
+     * @return String
+     * @Title: addRent
+     * @Description: 添加房屋缴费信息
+     */
+    @RequestMapping(value = "admin/Admin_addRent.action")
+    public String addRent(Rent paramsRent,
+                           ModelMap model) {
+        try {
+            //添加房屋缴费信息
+            adminManager.addRent(paramsRent);
+
+            setSuccessTip("提交成功", "Admin_listRents.action", model);
+        } catch (Exception e) {
+            e.printStackTrace();
+            setErrorTip("提交房屋缴费信息异常", "Admin_listRents.action", model);
+        }
+
+        return "infoTip";
+    }
+
+
+    /**
+     * @return String
+     * @Title: editRent
+     * @Description: 编辑房屋缴费信息
+     */
+    @RequestMapping(value = "admin/Admin_editRent.action")
+    public String editRent(Rent paramsRent,
+                            ModelMap model) {
+        try {
+            //得到房屋缴费信息
+            Rent rent = adminManager.queryRent(paramsRent);
+            model.addAttribute("rent", rent);
+
+            //查询房屋字典
+            Room room = new Room();
+            room.setStart(-1);
+            List<Room> rooms = adminManager.listRooms(room, null);
+            if (rooms == null) {
+                rooms = new ArrayList<Room>();
+            }
+            model.addAttribute("rooms", rooms);
+
+        } catch (Exception e) {
+            setErrorTip("查询房屋缴费信息异常", "Admin_listRents.action", model);
+            return "infoTip";
+        }
+
+        return "rentEdit";
+    }
+
+    /**
+     * @return String
+     * @Title: saveRent
+     * @Description: 保存编辑房屋缴费信息
+     */
+    @RequestMapping(value = "admin/Admin_saveRent.action")
+    public String saveRent(Rent paramsRent,
+                            ModelMap model, HttpServletRequest request, HttpServletResponse response, HttpSession httpSession) {
+        try {
+            //保存编辑房屋缴费信息
+            adminManager.updateRent(paramsRent);
+
+            setSuccessTip("编辑成功", "Admin_listRents.action", model);
+        } catch (Exception e) {
+            setErrorTip("编辑失败", "Admin_listRents.action", model);
+        }
+
+        return "infoTip";
+    }
+
+    /**
+     * @return String
+     * @Title: delRents
+     * @Description: 删除房屋缴费信息
+     */
+    @RequestMapping(value = "admin/Admin_delRents.action")
+    public String delRents(String ids,
+                            ModelMap model) {
+        try {
+            //删除房屋缴费信息
+            adminManager.delRents(ids);
+
+            setSuccessTip("删除房屋缴费信息成功", "Admin_listRents.action", model);
+        } catch (Exception e) {
+            setErrorTip("删除房屋缴费信息异常", "Admin_listRents.action", model);
+        }
+
+        return "infoTip";
+    }
+
 }

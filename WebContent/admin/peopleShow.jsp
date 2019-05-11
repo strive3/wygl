@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<html lang="zh-CN">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>人事信息</title>
@@ -97,7 +98,7 @@ function exportPeoples()
 <div class="pageTitle">
 	&nbsp;&nbsp;<img src="images/right1.gif" align="middle" /> &nbsp;<span id="MainTitle" style="color:white">人事管理&gt;&gt;人事查询</span>
 </div>
-<form name="info" id="info" action="Admin_listPeoples.action" method="post">
+<form class="form-inline" name="info" id="info" action="Admin_listPeoples.action" method="post">
 <input type="hidden" name="pageNo" id="pageNo" value="${paperUtil.pageNo}"/>
 <table width="95%" align="center" cellpadding="0" cellspacing="0">
   <tr><td colspan="2" height="10px">&nbsp;</td></tr>
@@ -105,23 +106,23 @@ function exportPeoples()
     <td width="">人事列表</td>
     <td width="" align="right">
             用户名：
-      <input type="text" id="name" name="name" value="${paramsPeople.name}" class="inputstyle" Style="width:100px"/>&nbsp;
+      <input class="form-control" type="text" id="name" name="name" value="${paramsPeople.name}" class="inputstyle" Style="width:100px"/>&nbsp;
             姓名：
-      <input type="text" id="realName" name="realName" value="${paramsPeople.realName}" class="inputstyle" Style="width:100px"/>&nbsp;
+      <input class="form-control" type="text" id="realName" name="realName" value="${paramsPeople.realName}" class="inputstyle" Style="width:100px"/>&nbsp;
             员工状态：
-      <select id="room_id" name="status" class="selectstyle" style="width:100px;">
+      <select class="form-control" id="room_id" name="status" class="selectstyle" style="width:100px;">
       	<option value="">请选择</option>
         <option value="0">实习</option>
         <option value="1">正式员工</option>
         <option value="2">离职</option>
       </select>&nbsp;
-      <input type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
-      <input type="button" value="删除" onclick="del();" class="btnstyle"/>&nbsp;
+      <input class="btn btn-default" type="button" value="搜索" onclick="serch();" class="btnstyle"/>&nbsp;
+      <input class="btn btn-default" type="button" value="删除" onclick="del();" class="btnstyle"/>&nbsp;
     </td>
   </tr>
   <tr><td colspan="2" height="2px"></td></tr>  
 </table>
-<table width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
+<table class="table table-bordered" width="95%" align="center" class="table_list" cellpadding="0" cellspacing="0">
    <tr class="listtitle">
      <td width="40" align="center"><input type="checkbox" onclick="CheckAll(this);" style="vertical-align:text-bottom;" title="全选/取消全选"/></td>
      <td width="40" align="center">序号</td>
